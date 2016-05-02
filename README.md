@@ -13,6 +13,8 @@ Usage
 * `outputFile.chm` - output file
 * `LocaleID` (optional) - CHM language hex code (LCID). Default is English - `$0409`. Russian, for example, is `$0419`. Full list can be found here: https://msdn.microsoft.com/en-us/goglobal/bb964664.aspx
 
+All input text must be in ANSI encoding.
+
 Credits and license
 -------------------
 This project is based on CHMFileWriter by Andrew Haines. The code is distributed under GNU LGPL.
