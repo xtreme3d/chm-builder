@@ -44,7 +44,7 @@ begin
   end;
 
   proj := TChmProject.Create;
-  proj.Title := 'Xtreme3D v3 Help';
+  proj.Title := 'Help';
   proj.MakeSearchable := true;
   proj.AutoFollowLinks := true;
   proj.ProjectDirectory := ParamStr(1); //'html';
